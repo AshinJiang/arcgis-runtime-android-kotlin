@@ -21,6 +21,7 @@ class AddGraphicsRenderer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.add_graphics_renderer)
+        setTitle(R.string.add_graphics_renderer)
 
         val map= ArcGISMap(Basemap.Type.TOPOGRAPHIC,15.169193,16.333479,2)
         addGraphicsOverlay()
