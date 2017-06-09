@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.shaunsheep.agsdemo.addgraphicsrenderer.AddGraphicsRenderer
+import com.shaunsheep.agsdemo.addgraphicssymbol.AddGraphicsSymbol
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -38,6 +39,8 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
     override fun onClick(view: View, position: Int) {
         when(position){
             0 -> startActivity(Intent(applicationContext,AddGraphicsRenderer::class.java))//跳转activity
+            1 -> startActivity(Intent(applicationContext,AddGraphicsSymbol::class.java))
+
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()
     }

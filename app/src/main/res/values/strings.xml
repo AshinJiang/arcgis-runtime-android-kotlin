@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ArcGISRuntimeDemos</string>
+    <string name="add_graphics_renderer">Add Graphics Renderer</string>
+    <string name="add_graphics_symbol">Add Graphics Symbol</string>
 </resources>
