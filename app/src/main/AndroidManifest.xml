@@ -18,8 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".addgraphicsrenderer.AddGraphicsRenderer"/>
-        <activity android:name=".addgraphicssymbol.AddGraphicsSymbol"></activity>
+        <activity android:name=".addgraphicsrenderer.AddGraphicsRenderer" />
+        <activity android:name=".addgraphicssymbol.AddGraphicsSymbol" />
+        <activity android:name=".arcgismapimagelayer.MapImageLayerUrl"></activity>
     </application>
 
 </manifest>

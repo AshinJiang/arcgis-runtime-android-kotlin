@@ -2,4 +2,7 @@
     <string name="app_name">ArcGISRuntimeDemos</string>
     <string name="add_graphics_renderer">Add Graphics Renderer</string>
     <string name="add_graphics_symbol">Add Graphics Symbol</string>
+    <string name="arcgis_mapimagelayer_url">MapImageLayer Url</string>
+    <!-- World Topo Map Service URL -->
+    <string name="world_elevation_service">http://sampleserver5.arcgisonline.com/arcgis/rest/services/Elevation/WorldElevations/MapServer</string>
 </resources>

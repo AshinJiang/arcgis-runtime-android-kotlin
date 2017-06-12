@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.shaunsheep.agsdemo.addgraphicsrenderer.AddGraphicsRenderer
 import com.shaunsheep.agsdemo.addgraphicssymbol.AddGraphicsSymbol
+import com.shaunsheep.agsdemo.arcgismapimagelayer.MapImageLayerUrl
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
         when(position){
             0 -> startActivity(Intent(applicationContext,AddGraphicsRenderer::class.java))//跳转activity
             1 -> startActivity(Intent(applicationContext,AddGraphicsSymbol::class.java))
+            2 -> startActivity(Intent(applicationContext,MapImageLayerUrl::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

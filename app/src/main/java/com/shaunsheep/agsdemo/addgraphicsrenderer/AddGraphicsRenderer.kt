@@ -14,13 +14,13 @@ import com.esri.arcgisruntime.mapping.view.Graphic
 import com.esri.arcgisruntime.mapping.view.GraphicsOverlay
 import com.esri.arcgisruntime.symbology.*
 import com.shaunsheep.agsdemo.R
-import kotlinx.android.synthetic.main.add_graphics_renderer.*
+import kotlinx.android.synthetic.main.activity_mapview.*
 
 class AddGraphicsRenderer : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.add_graphics_renderer)
+        setContentView(R.layout.activity_mapview)
         setTitle(R.string.add_graphics_renderer)
 
         val map= ArcGISMap(Basemap.Type.TOPOGRAPHIC,15.169193,16.333479,2)

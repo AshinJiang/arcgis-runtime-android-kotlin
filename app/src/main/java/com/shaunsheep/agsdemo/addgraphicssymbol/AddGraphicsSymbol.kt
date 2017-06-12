@@ -9,7 +9,7 @@ import com.esri.arcgisruntime.mapping.ArcGISMap
 import com.esri.arcgisruntime.mapping.Basemap
 import com.esri.arcgisruntime.mapping.view.GraphicsOverlay
 import com.shaunsheep.agsdemo.R
-import kotlinx.android.synthetic.main.add_graphics_symbols.*
+import kotlinx.android.synthetic.main.activity_mapview.*
 import com.esri.arcgisruntime.mapping.view.Graphic
 import com.esri.arcgisruntime.symbology.SimpleMarkerSymbol
 import com.esri.arcgisruntime.symbology.TextSymbol
@@ -22,7 +22,7 @@ class AddGraphicsSymbol : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.add_graphics_symbols)
+        setContentView(R.layout.activity_mapview)
         setTitle(R.string.add_graphics_symbol)
 
         val map=ArcGISMap(Basemap.Type.OCEANS,56.075844, -2.681572, 11)
