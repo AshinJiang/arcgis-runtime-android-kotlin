@@ -1,8 +1,56 @@
 <resources>
     <string name="app_name">ArcGISRuntimeDemos</string>
-    <string name="add_graphics_renderer">Add Graphics Renderer</string>
-    <string name="add_graphics_symbol">Add Graphics Symbol</string>
-    <string name="arcgis_mapimagelayer_url">MapImageLayer Url</string>
+    <string name="title_add_graphics_renderer">Add Graphics Renderer</string>
+    <string name="title_add_graphics_symbol">Add Graphics Symbol</string>
+    <string name="title_arcgis_mapimagelayer_url">MapImageLayer Url</string>
+    <string name="title_arcgis_tiledlayer_url">TiledLayer from Url</string>
+
+    <!-- arcgis vectortiledlayer form url start-->
+    <string name="title_arcgis_vectortiledlayer_from_url">vector-tiled-layer</string>
+
+    <string name="navigation_url">https://www.arcgis.com/home/item.html?id=e19e9330bf08490ca8353d76b5e2e658</string>
+    <string name="light_gray_url">https://www.arcgis.com/home/item.html?id=5dd75c1a544b46c3af01ba5736bfdfa0</string>
+    <string name="night_url">https://www.arcgis.com/home/item.html?id=92c551c9f07b4147846aae273e822714</string>
+    <string name="dark_gray_url">https://www.arcgis.com/home/item.html?id=5ad3948260a147a993ef4865e3fad476</string>
+
+    <string-array name="vector_tiled_types">
+        <item>World Navigation</item>
+        <item>World Street Night</item>
+        <item>Light Gray Canvas</item>
+        <item>Dark Gray Canvas</item>
+    </string-array>
+
+    <string name="vector_tiled_layer">%1$s</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- arcgis vectortiledlayer form url end-->
+
     <!-- World Topo Map Service URL -->
     <string name="world_elevation_service">http://sampleserver5.arcgisonline.com/arcgis/rest/services/Elevation/WorldElevations/MapServer</string>
+    <!-- World Topo Map Service URL -->
+    <string name="world_topo_service">http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer</string>
+
+    <!-- bledn renderer start -->
+    <string name="title_blend_renderer">Blend Renderer</string>
+    <string name="location_permission_denied">Blend Renderer could not open the raster because WRITE permission was denied.</string>
+    <string name="chooseParam">Edit renderer</string>
+    <string name="dialog_title">Blend rendering parameters</string>
+    <string name="altitude_text">Altitude</string>
+    <string name="azimuth_text">Azimuth</string>
+    <string name="slope_type_text">Slope type</string>
+    <string name="color_ramp_text">Color ramp type</string>
+    <string name="data_sdcard_offline_dir">ArcGIS/samples/raster</string>
+    <string name="imagery_raster_name">Shasta</string>
+    <string name="elevation_raster_name">Shasta_Elevation</string>
+    <!-- bledn renderer end -->
+
+    <string name="change_basemap">Change BaseMap</string>
+    <!-- change featurelayer renderer start -->
+    <string name="change_featurelayer_renderer">Change feature layer renderer</string>
+    <string name="change_featurelayer_action_override_rend">Override renderer</string>
+    <string name="change_featurelayer_action_reset">Reset</string>
+    <string name="change_featurelayer_sample_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/PoolPermits/FeatureServer/0</string>
+    <!-- change featurelayer renderer start -->
+
 </resources>

@@ -1,8 +1,8 @@
 package com.shaunsheep.agsdemo.addgraphicsrenderer
 
 import android.graphics.Color
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.view.KeyEvent
 import com.esri.arcgisruntime.geometry.Point
 import com.esri.arcgisruntime.geometry.PolygonBuilder
@@ -21,7 +21,7 @@ class AddGraphicsRenderer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mapview)
-        setTitle(R.string.add_graphics_renderer)
+        setTitle(R.string.title_add_graphics_renderer)
 
         val map= ArcGISMap(Basemap.Type.TOPOGRAPHIC,15.169193,16.333479,2)
         addGraphicsOverlay()
