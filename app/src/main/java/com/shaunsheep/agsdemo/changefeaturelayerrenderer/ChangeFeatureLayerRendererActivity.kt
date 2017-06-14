@@ -102,7 +102,7 @@ class ChangeFeatureLayerRendererActivity : AppCompatActivity() {
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
-        if (keyCode == KeyEvent.ACTION_DOWN) finish()
+        if (keyCode == KeyEvent.KEYCODE_BACK) finish()
         return super.onKeyDown(keyCode, event)
     }
 }

@@ -14,6 +14,10 @@ import com.shaunsheep.agsdemo.arcgisvectortiledlayerurl.VectorTiledlayerFromUrl
 import com.shaunsheep.agsdemo.blendrenderer.BlendRendererActivity
 import com.shaunsheep.agsdemo.changebasemap.ChangeBaseMapActivity
 import com.shaunsheep.agsdemo.changefeaturelayerrenderer.ChangeFeatureLayerRendererActivity
+import com.shaunsheep.agsdemo.changesublayervisible.ChangeSublayerVisibleActivity
+import com.shaunsheep.agsdemo.changeviewpoint.ChangeViewPointActivity
+import com.shaunsheep.agsdemo.colormaprenderer.ColormapRendererActivity
+import com.shaunsheep.agsdemo.creategeometry.CreateGeometriesActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -29,7 +33,13 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             "change-feature-layer-renderer",
             "change-sublayer-visibility",
             "change-viewpoint",
-            "create-geometries"
+            "colormap-renderer",
+            "create-geometries",
+            "create-save-map",
+            "display-device-location",
+            "display-drawing-status",
+            "display-layer-view-state",
+            "display-map"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +64,10 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             6 -> startActivity(Intent(applicationContext,BlendRendererActivity::class.java))
             7 -> startActivity(Intent(applicationContext,ChangeBaseMapActivity::class.java))
             8 -> startActivity(Intent(applicationContext,ChangeFeatureLayerRendererActivity::class.java))
+            9 -> startActivity(Intent(applicationContext,ChangeSublayerVisibleActivity::class.java))
+            10 -> startActivity(Intent(applicationContext,ChangeViewPointActivity::class.java))
+            11 -> startActivity(Intent(applicationContext,ColormapRendererActivity::class.java))
+            12 -> startActivity(Intent(applicationContext,CreateGeometriesActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

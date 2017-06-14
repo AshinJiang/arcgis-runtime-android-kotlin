@@ -3,4 +3,5 @@
     <dimen name="main_btn_text_size">10dp</dimen>
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="viewpoint_padding">32dp</dimen>
 </resources>

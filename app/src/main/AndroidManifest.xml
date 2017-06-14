@@ -26,7 +26,11 @@
         <activity android:name=".arcgisvectortiledlayerurl.VectorTiledlayerFromUrl" />
         <activity android:name=".blendrenderer.BlendRendererActivity" />
         <activity android:name=".changebasemap.ChangeBaseMapActivity" />
-        <activity android:name=".changefeaturelayerrenderer.ChangeFeatureLayerRendererActivity"></activity>
+        <activity android:name=".changefeaturelayerrenderer.ChangeFeatureLayerRendererActivity" />
+        <activity android:name=".changesublayervisible.ChangeSublayerVisibleActivity" />
+        <activity android:name=".changeviewpoint.ChangeViewPointActivity" />
+        <activity android:name=".colormaprenderer.ColormapRendererActivity" />
+        <activity android:name=".creategeometry.CreateGeometriesActivity"></activity>
     </application>
 
 </manifest>
