@@ -26,7 +26,6 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.KeyEvent
 import android.view.Menu
-import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.Toast
 import com.esri.arcgisruntime.layers.RasterLayer
@@ -40,7 +39,6 @@ import com.esri.arcgisruntime.raster.SlopeType
 import com.shaunsheep.agsdemo.R
 
 import java.io.File
-import java.util.Collections
 
 class BlendRendererActivity : AppCompatActivity(), ParametersDialogFragment.ParametersListener {
 
@@ -166,7 +164,7 @@ class BlendRendererActivity : AppCompatActivity(), ParametersDialogFragment.Para
         } else {
             // report to user that permission was denied
             Toast.makeText(applicationContext,
-                    resources.getString(R.string.location_permission_denied),
+                    resources.getString(R.string.store_write_permission_denied),
                     Toast.LENGTH_SHORT).show()
         }
     }

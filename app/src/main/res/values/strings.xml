@@ -33,7 +33,7 @@
 
     <!-- bledn renderer start -->
     <string name="title_blend_renderer">Blend Renderer</string>
-    <string name="location_permission_denied">Blend Renderer could not open the raster because WRITE permission was denied.</string>
+    <string name="store_write_permission_denied">Blend Renderer could not open the raster because WRITE permission was denied.</string>
     <string name="chooseParam">Edit renderer</string>
     <string name="dialog_title">Blend rendering parameters</string>
     <string name="altitude_text">Altitude</string>
@@ -80,5 +80,38 @@
     <!-- colormap renderer end -->
 
     <string name="title_create_geometry">create-geometries</string>
+
+    <!-- create save map start -->
+    <string name="title_create_save_map">Create Save Map</string>
+    <string name="basemap_selection">Choose a basemap</string>
+    <string name="layer_selection">Add operational layers</string>
+    <string name="title">Title</string>
+    <string name="tags">Tags</string>
+    <string name="desc">Description</string>
+    <!-- Services -->
+    <string name="world_elevation">http://sampleserver6.arcgisonline.com/arcgis/rest/services/WorldTimeZones/MapServer</string>
+    <string name="world_census">http://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer</string>
+    <!-- App messages -->
+    <string name="author_map_message">Creating your map</string>
+    <string name="wait">Please wait&#8230;</string>
+    <string name="map_successful">Map created successfully</string>
+    <string name="title_error">Please enter a Title for your map</string>
+    <string name="tags_error">Tags can not be empty</string>
+    <!-- Basemap choice array -->
+    <string-array name="basemap_array">
+        <item>Streets</item>
+        <item>Imagery</item>
+        <item>Topographic</item>
+        <item>Oceans</item>
+    </string-array>
+    <!-- Operational layer array -->
+    <string-array name="operational_layer_array">
+        <item>World Elevation</item>
+        <item>Census</item>
+    </string-array>
+    <!-- create save map end -->
+
+    <string name="title_display_location">Display Device Location</string>
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
 
 </resources>

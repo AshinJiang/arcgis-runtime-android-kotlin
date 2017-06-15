@@ -18,6 +18,8 @@ import com.shaunsheep.agsdemo.changesublayervisible.ChangeSublayerVisibleActivit
 import com.shaunsheep.agsdemo.changeviewpoint.ChangeViewPointActivity
 import com.shaunsheep.agsdemo.colormaprenderer.ColormapRendererActivity
 import com.shaunsheep.agsdemo.creategeometry.CreateGeometriesActivity
+import com.shaunsheep.agsdemo.createsavemap.CreateSaveMapActivity
+import com.shaunsheep.agsdemo.displaydevicelocation.DisplayDeviceLocationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -68,6 +70,8 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             10 -> startActivity(Intent(applicationContext,ChangeViewPointActivity::class.java))
             11 -> startActivity(Intent(applicationContext,ColormapRendererActivity::class.java))
             12 -> startActivity(Intent(applicationContext,CreateGeometriesActivity::class.java))
+            13 -> startActivity(Intent(applicationContext,CreateSaveMapActivity::class.java))
+            14 -> startActivity(Intent(applicationContext,DisplayDeviceLocationActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()
