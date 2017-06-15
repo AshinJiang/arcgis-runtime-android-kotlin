@@ -20,6 +20,10 @@ import com.shaunsheep.agsdemo.colormaprenderer.ColormapRendererActivity
 import com.shaunsheep.agsdemo.creategeometry.CreateGeometriesActivity
 import com.shaunsheep.agsdemo.createsavemap.CreateSaveMapActivity
 import com.shaunsheep.agsdemo.displaydevicelocation.DisplayDeviceLocationActivity
+import com.shaunsheep.agsdemo.displaydrawingstatus.DisplayDrawingStatusActivity
+import com.shaunsheep.agsdemo.displaylayerviewstate.DisplayLayerViewStateActivity
+import com.shaunsheep.agsdemo.displaymap.DisplayMapActivity
+import com.shaunsheep.agsdemo.editfeatureattachments.EditFeatureAttachActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -41,7 +45,8 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             "display-device-location",
             "display-drawing-status",
             "display-layer-view-state",
-            "display-map"
+            "display-map",
+            "edit-feature-attachments"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,6 +77,10 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             12 -> startActivity(Intent(applicationContext,CreateGeometriesActivity::class.java))
             13 -> startActivity(Intent(applicationContext,CreateSaveMapActivity::class.java))
             14 -> startActivity(Intent(applicationContext,DisplayDeviceLocationActivity::class.java))
+            15 -> startActivity(Intent(applicationContext,DisplayDrawingStatusActivity::class.java))
+            16 -> startActivity(Intent(applicationContext,DisplayLayerViewStateActivity::class.java))
+            17 -> startActivity(Intent(applicationContext,DisplayMapActivity::class.java))
+            18 -> startActivity(Intent(applicationContext,EditFeatureAttachActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

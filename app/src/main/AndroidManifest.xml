@@ -40,6 +40,11 @@
         <activity android:name=".createsavemap.CreateSaveMapActivity" />
         <activity android:name=".createsavemap.MapSaveActivity"></activity>
         <activity android:name=".displaydevicelocation.DisplayDeviceLocationActivity"/>
+        <activity android:name=".displaydrawingstatus.DisplayDrawingStatusActivity"/>
+        <activity android:name=".displaylayerviewstate.DisplayLayerViewStateActivity"/>
+        <activity android:name=".displaymap.DisplayMapActivity"/>
+        <activity android:name=".editfeatureattachments.EditFeatureAttachActivity"/>
+        <activity android:name=".editfeatureattachments.EditAttachmentActivity"/>
     </application>
 
 </manifest>

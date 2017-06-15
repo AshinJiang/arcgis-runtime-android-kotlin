@@ -114,4 +114,60 @@
     <string name="title_display_location">Display Device Location</string>
     <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
 
+    <!-- display drawing status start -->
+    <string name="title_display_drawing_status">Display Drawing Status</string>
+    <string name="progress_dialog_title">Layer Loading</string>
+    <string name="service_feature_table_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/DamageAssessment/FeatureServer/0</string>
+    <!-- display drawing status end -->
+
+    <!--Display layer view  state start-->
+    <string name="title_display_layer_view_state">Display layer view  state</string>
+    <!-- Display labels -->
+    <string name="world_time_zone">World Time Zones: </string>
+    <string name="census">Census: </string>
+    <string name="facilities">Facilities: </string>
+    <!-- Service status -->
+    <string name="active">Active</string>
+    <string name="notVisible">Not Visible</string>
+    <string name="outOfScale">Out of Scale</string>
+    <string name="loading">Loading</string>
+    <string name="error">Error</string>
+    <string name="unknown">Unknown</string>
+    <!-- World Timezone Service URL -->
+    <string name="world_timezone_service_URL">http://sampleserver6.arcgisonline.com/arcgis/rest/services/WorldTimeZones/MapServer</string>
+    <!-- World Census Service URL -->
+    <string name="world_census_service_URL">http://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer</string>
+    <!-- World Facilities Service URL -->
+    <string name="world_facilities_service_URL">http://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/0</string>
+    <!--Display layer view  state end-->
+
+    <string name="title_display_map">Display A Map</string>
+
+    <!--edit featurelayer attachment start-->
+    <string name="title_edit_feature_attach">Edit Feature Attachments</string>
+    <string name="edit_attachments">Edit Attachments</string>
+    <string name="attribute">"AttributeID"</string>
+    <string name="attachment">attachment</string>
+    <string name="noOfAttachments">noOfAttachments</string>
+
+    <!-- Messages -->
+    <string name="fetching_no_attachments">Fetching attachment count</string>
+    <string name="info_button_message">Tap on the info button to edit attachment</string>
+    <string name="attachment_info_message">Number of attachments | </string>
+    <string name="empty_attachment_message">Click + to add attachments</string>
+    <string name="fetching_attachments">Fetching Attachments</string>
+    <string name="downloading_attachments">Downloading Attachments</string>
+    <string name="deleting_attachments">Deleting Attachments</string>
+    <string name="delete_query">Are you sure you want to delete the attachment?</string>
+    <string name="apply_edit_message">Applying Edits on Server</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="success_message">Feature edited successfully</string>
+    <string name="failure_message">Server Error: Failed updating feature attachment to the server.</string>
+    <string name="failure_edit_results">Server did not return edit results</string>
+    <!-- Feature Service URL -->
+    <string name="sample_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/DamageAssessment/FeatureServer/0</string>
+    <string name="storage_permission_denied">Storage permission denied</string>
+    <!--edit featurelayer attachment end-->
+
 </resources>
