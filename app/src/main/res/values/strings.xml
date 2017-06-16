@@ -75,7 +75,7 @@
     <!-- colormap renderer start -->
     <string name="title_colormap_renderer">Colormap Renderer</string>
     <string name="colormap_location_permission_denied">Colormap Renderer could not open the raster because WRITE permission was denied.</string>
-    <string name="config_data_sdcard_offline_dir">/ArcGIS/samples/raster</string>
+    <string name="config_data_sdcard_offline_raster">/ArcGIS/samples/raster</string>
     <string name="config_raster_name">ShastaBW</string>
     <!-- colormap renderer end -->
 
@@ -169,5 +169,47 @@
     <string name="sample_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/DamageAssessment/FeatureServer/0</string>
     <string name="storage_permission_denied">Storage permission denied</string>
     <!--edit featurelayer attachment end-->
+
+    <!--feature layer def express start -->
+    <string name="title_feature_layer_def_exp">Feature layer definition expression</string>
+    <string name="action_def_exp">Apply expression</string>
+    <string name="action_reset">Reset</string>
+    <string name="feature_layer_def_exp_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/SF311/FeatureServer/0</string>
+    <!--feature layer def express start -->
+
+    <string name="title_feature_layer_service">Feature layer (feature service)</string>
+    <!-- Sample Strings -->
+    <string name="feature_layer_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/Energy/Geology/FeatureServer/9</string>
+
+    <string name="title_featurelayer_Gdb">FeatureLayer Geodatabase</string>
+
+    <!--feature layer query start-->
+    <string name="title_feature_layer_query">Feature layer query</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search for USA states</string>
+    <string name="feature_layer_query_service_url">https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/2</string>
+    <!--feature layer query end-->
+
+    <string name="title_feature_layer_selection">Feature layer selection</string>
+
+    <string name="title_feature_layer_show_attr">Feature Layer Show Attributes</string>
+
+    <!--feature layer update attr start-->
+    <string name="title_feature_layer_u_attr">"feature-layer-update-attributes"</string>
+    <string name="select_damage_Type">"Select new damage type"</string>
+    <!-- Progress dialog messages -->
+    <string name="progress_title">Updating attribute type</string>
+    <string name="progress_message">Please wait&#8230;</string>
+    <!-- Sample Strings -->
+    <string-array name="damage_types">
+        <item>Destroyed</item>
+        <item>Major</item>
+        <item>Minor</item>
+        <item>Affected</item>
+        <item>Inaccessible</item>
+    </string-array>
+    <!--feature layer update attr end-->
+
+    <string name="title_feature_layer_u_geo">Feature Layer Update Geometry</string>
 
 </resources>

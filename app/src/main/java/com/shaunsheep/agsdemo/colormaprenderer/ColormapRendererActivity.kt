@@ -81,7 +81,7 @@ class ColormapRendererActivity : AppCompatActivity() {
         // get sdcard resource name
         val extStorDir = Environment.getExternalStorageDirectory()
         // get the directory
-        val extSDCardDirName = this.resources.getString(R.string.config_data_sdcard_offline_dir)
+        val extSDCardDirName = this.resources.getString(R.string.config_data_sdcard_offline_raster)
         // get raster filename
         val filename = this.getString(R.string.config_raster_name)
         // create the full path to the raster file

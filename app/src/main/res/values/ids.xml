@@ -2,4 +2,5 @@
 <resources>
     <item name="calloutTextView" type="id"/>
     <item name="attchTV" type="id"/>
+    <item name="textview" type="id"/>
 </resources>

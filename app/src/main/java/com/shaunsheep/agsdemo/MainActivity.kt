@@ -24,6 +24,14 @@ import com.shaunsheep.agsdemo.displaydrawingstatus.DisplayDrawingStatusActivity
 import com.shaunsheep.agsdemo.displaylayerviewstate.DisplayLayerViewStateActivity
 import com.shaunsheep.agsdemo.displaymap.DisplayMapActivity
 import com.shaunsheep.agsdemo.editfeatureattachments.EditFeatureAttachActivity
+import com.shaunsheep.agsdemo.featurelayerdefinitionexpression.FeatureLayerDefExpressionActivity
+import com.shaunsheep.agsdemo.featurelayerfeatureservice.FeatureLayerServiceActivity
+import com.shaunsheep.agsdemo.featurelayergeodatabase.FeatureLayerGeodatabaseActivity
+import com.shaunsheep.agsdemo.featurelayerquery.FeatureLayerQueryActivity
+import com.shaunsheep.agsdemo.featurelayerselection.FeatureLayerSelectionActivity
+import com.shaunsheep.agsdemo.featurelayershowattributes.FeatureLayerShowAttrActivity
+import com.shaunsheep.agsdemo.featurelayerupdateattributes.FeatureLayerUpAttrActivity
+import com.shaunsheep.agsdemo.featurelayerupdategeometry.FeatureLayerUpGeoActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -46,7 +54,16 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             "display-drawing-status",
             "display-layer-view-state",
             "display-map",
-            "edit-feature-attachments"
+            "edit-feature-attachments",
+            "feature-layer-definition-expression",
+            "feature-layer-feature-service",
+            "feature-layer-geodatabase",
+            "feature-layer-query",
+            "feature-layer-selection",
+            "feature-layer-show-attributes",
+            "feature-layer-update-attributes",
+            "feature-layer-update-geometry",
+            "find-route"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -81,6 +98,14 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             16 -> startActivity(Intent(applicationContext,DisplayLayerViewStateActivity::class.java))
             17 -> startActivity(Intent(applicationContext,DisplayMapActivity::class.java))
             18 -> startActivity(Intent(applicationContext,EditFeatureAttachActivity::class.java))
+            19 -> startActivity(Intent(applicationContext,FeatureLayerDefExpressionActivity::class.java))
+            20 -> startActivity(Intent(applicationContext,FeatureLayerServiceActivity::class.java))
+            21 -> startActivity(Intent(applicationContext,FeatureLayerGeodatabaseActivity::class.java))
+            22 -> startActivity(Intent(applicationContext,FeatureLayerQueryActivity::class.java))
+            23 -> startActivity(Intent(applicationContext,FeatureLayerSelectionActivity::class.java))
+            24 -> startActivity(Intent(applicationContext,FeatureLayerShowAttrActivity::class.java))
+            25 -> startActivity(Intent(applicationContext,FeatureLayerUpAttrActivity::class.java))
+            26 -> startActivity(Intent(applicationContext,FeatureLayerUpGeoActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

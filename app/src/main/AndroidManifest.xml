@@ -45,6 +45,23 @@
         <activity android:name=".displaymap.DisplayMapActivity"/>
         <activity android:name=".editfeatureattachments.EditFeatureAttachActivity"/>
         <activity android:name=".editfeatureattachments.EditAttachmentActivity"/>
+        <activity android:name=".featurelayerdefinitionexpression.FeatureLayerDefExpressionActivity"/>
+        <activity android:name=".featurelayerfeatureservice.FeatureLayerServiceActivity"/>
+        <activity android:name=".featurelayergeodatabase.FeatureLayerGeodatabaseActivity"/>
+        <activity
+            android:launchMode="singleTop"
+            android:name=".featurelayerquery.FeatureLayerQueryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".featurelayerselection.FeatureLayerSelectionActivity"/>
+        <activity android:name=".featurelayershowattributes.FeatureLayerShowAttrActivity"></activity>
+        <activity android:name=".featurelayerupdateattributes.FeatureLayerUpAttrActivity"/>
+        <activity android:name=".featurelayerupdateattributes.FLUPAttrDamageTypesListActivity"/>
+        <activity android:name=".featurelayerupdategeometry.FeatureLayerUpGeoActivity"
+            android:configChanges="orientation|screenSize|uiMode"/>
     </application>
 
 </manifest>
