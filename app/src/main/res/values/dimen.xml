@@ -4,4 +4,7 @@
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">0dp</dimen>
     <dimen name="viewpoint_padding">32dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_text_size">18sp</dimen>
+    <dimen name="list_item_height">48dip</dimen>
 </resources>

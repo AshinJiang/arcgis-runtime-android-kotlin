@@ -212,4 +212,48 @@
 
     <string name="title_feature_layer_u_geo">Feature Layer Update Geometry</string>
 
+    <!--find route start-->
+    <string name="title_find_route">Find route</string>
+    <!-- Navigation vectore URL-->
+    <string name="navigation_vector">http://www.arcgis.com/sharing/rest/content/items/dcbbba0edf094eaa81af19298b9c6247/resources/styles/root.json</string>
+    <string name="routing_service">http://sampleserver6.arcgisonline.com/arcgis/rest/services/NetworkAnalysis/SanDiego/NAServer/Route</string>
+    <!-- Drawer strings-->
+    <string name="find_route_progress_title">Finding Route</string>
+    <!--find route end-->
+
+    <string name="title_identify_graphics">Identify Graphics</string>
+
+    <!--manager bookmarks start-->
+    <string name="title_manager_bookmarks">manage-bookmarks</string>
+    <string name="alert_dialog_title">Provide the bookmark name</string>
+    <string name="bookmark_not_saved">Book mark could not be saved, ensure you entered a bookmark name and that it is not a duplicate</string>
+    <!-- bookmark names -->
+    <string name="desert_pattern">Mysterious Desert Pattern</string>
+    <string name="strange_symbol">Strange Symbol</string>
+    <string name="guitar_trees">Guitar-Shaped Trees</string>
+    <string name="prismatic_spring">Grand Prismatic Spring</string>
+    <!--manager bookmarks end-->
+
+    <!--manage opertaional layers start-->
+    <string name="title_manage_operationlayer">manage-operational-layers</string>
+    <string name="imagelayer_elevation_url">http://sampleserver5.arcgisonline.com/arcgis/rest/services/Elevation/WorldElevations/MapServer</string>
+    <string name="imagelayer_census_url">http://sampleserver5.arcgisonline.com/arcgis/rest/services/Census/MapServer</string>
+    <string name="title_activity_operational_layers">OperationalLayers</string>
+    <string name="operational_layers">Operational Layers</string>
+    <string name="done">Done</string>
+    <string name="added_layers"> Added layers</string>
+    <string name="removed_layers"> Removed layers</string>
+    <!--manage opertaional layers end-->
+
+    <!--map loaded start-->
+    <string name="title_map_loaded">Map Loaded</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="map_load_status">Map Load Status :</string>
+    <string name="status_loading">Loading</string>
+    <string name="status_loadFail">Failed to load</string>
+    <string name="status_notLoaded">Not loaded</string>
+    <string name="status_loaded">Loaded</string>
+    <string name="status_loadError">Error loading map</string>
+    <!--map loaded end-->
+
 </resources>

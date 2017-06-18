@@ -32,6 +32,11 @@ import com.shaunsheep.agsdemo.featurelayerselection.FeatureLayerSelectionActivit
 import com.shaunsheep.agsdemo.featurelayershowattributes.FeatureLayerShowAttrActivity
 import com.shaunsheep.agsdemo.featurelayerupdateattributes.FeatureLayerUpAttrActivity
 import com.shaunsheep.agsdemo.featurelayerupdategeometry.FeatureLayerUpGeoActivity
+import com.shaunsheep.agsdemo.findroute.FindRouteActivity
+import com.shaunsheep.agsdemo.identifygraphicoverlay.IdentifyGraphicsOverlayActivity
+import com.shaunsheep.agsdemo.managebookmarks.ManagerBookmarksActivity
+import com.shaunsheep.agsdemo.manageoperationallayers.ManageOperationalLayerActivity
+import com.shaunsheep.agsdemo.maploaded.MapLoadedActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -63,7 +68,13 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             "feature-layer-show-attributes",
             "feature-layer-update-attributes",
             "feature-layer-update-geometry",
-            "find-route"
+            "find-route",
+            "identify-graphics-hittest",
+            "manage-bookmarks",
+            "manage-operational-layers",
+            "map-loaded",
+            "map-rotation",
+            "map-sketching"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -106,6 +117,11 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             24 -> startActivity(Intent(applicationContext,FeatureLayerShowAttrActivity::class.java))
             25 -> startActivity(Intent(applicationContext,FeatureLayerUpAttrActivity::class.java))
             26 -> startActivity(Intent(applicationContext,FeatureLayerUpGeoActivity::class.java))
+            27 -> startActivity(Intent(applicationContext,FindRouteActivity::class.java))
+            28 -> startActivity(Intent(applicationContext,IdentifyGraphicsOverlayActivity::class.java))
+            29 -> startActivity(Intent(applicationContext,ManagerBookmarksActivity::class.java))
+            30 -> startActivity(Intent(applicationContext,ManageOperationalLayerActivity::class.java))
+            31 -> startActivity(Intent(applicationContext,MapLoadedActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

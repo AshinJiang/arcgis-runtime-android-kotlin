@@ -62,6 +62,13 @@
         <activity android:name=".featurelayerupdateattributes.FLUPAttrDamageTypesListActivity"/>
         <activity android:name=".featurelayerupdategeometry.FeatureLayerUpGeoActivity"
             android:configChanges="orientation|screenSize|uiMode"/>
+        <activity android:name=".findroute.FindRouteActivity"/>
+        <activity android:name=".identifygraphicoverlay.IdentifyGraphicsOverlayActivity"
+            android:configChanges="orientation|screenSize|uiMode"/>
+        <activity android:name=".managebookmarks.ManagerBookmarksActivity"/>
+        <activity android:name=".maploaded.MapLoadedActivity"/>
+        <activity android:name=".manageoperationallayers.ManageOperationalLayerActivity"/>
+        <activity android:name=".manageoperationallayers.OperationalLayers"/>
     </application>
 
 </manifest>
