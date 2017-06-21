@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
+import com.esri.arcgisruntime.mapping.view.MapRotationChangedEvent
 import com.shaunsheep.agsdemo.addgraphicsrenderer.AddGraphicsRenderer
 import com.shaunsheep.agsdemo.addgraphicssymbol.AddGraphicsSymbol
 import com.shaunsheep.agsdemo.arcgismapimagelayer.MapImageLayerUrl
@@ -37,6 +38,8 @@ import com.shaunsheep.agsdemo.identifygraphicoverlay.IdentifyGraphicsOverlayActi
 import com.shaunsheep.agsdemo.managebookmarks.ManagerBookmarksActivity
 import com.shaunsheep.agsdemo.manageoperationallayers.ManageOperationalLayerActivity
 import com.shaunsheep.agsdemo.maploaded.MapLoadedActivity
+import com.shaunsheep.agsdemo.maprotation.MapRotationActivity
+import com.shaunsheep.agsdemo.mapsketching.MapSketchingActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -122,6 +125,8 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             29 -> startActivity(Intent(applicationContext,ManagerBookmarksActivity::class.java))
             30 -> startActivity(Intent(applicationContext,ManageOperationalLayerActivity::class.java))
             31 -> startActivity(Intent(applicationContext,MapLoadedActivity::class.java))
+            32 -> startActivity(Intent(applicationContext,MapRotationActivity::class.java))
+            33 -> startActivity(Intent(applicationContext,MapSketchingActivity::class.java))
 
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()

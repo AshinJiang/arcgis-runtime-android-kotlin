@@ -69,6 +69,8 @@
         <activity android:name=".maploaded.MapLoadedActivity"/>
         <activity android:name=".manageoperationallayers.ManageOperationalLayerActivity"/>
         <activity android:name=".manageoperationallayers.OperationalLayers"/>
+        <activity android:name=".maprotation.MapRotationActivity"/>
+        <activity android:name=".mapsketching.MapSketchingActivity"/>
     </application>
 
 </manifest>
