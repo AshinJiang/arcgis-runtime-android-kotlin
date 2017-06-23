@@ -30,6 +30,7 @@
         <activity android:name=".arcgismapimagelayer.MapImageLayerUrl" />
         <activity android:name=".arcgistiledfromurl.TiledLayerFromUrl" />
         <activity android:name=".arcgisvectortiledlayerurl.VectorTiledlayerFromUrl" />
+        <activity android:name=".authenticationprofile.AuthProfileActivity"/>
         <activity android:name=".blendrenderer.BlendRendererActivity" />
         <activity android:name=".changebasemap.ChangeBaseMapActivity" />
         <activity android:name=".changefeaturelayerrenderer.ChangeFeatureLayerRendererActivity" />
@@ -71,6 +72,23 @@
         <activity android:name=".manageoperationallayers.OperationalLayers"/>
         <activity android:name=".maprotation.MapRotationActivity"/>
         <activity android:name=".mapsketching.MapSketchingActivity"/>
+        <activity android:name=".offlinegeocode.OfflineGeocodeActivity"/>
+        <activity android:name=".openexistingmap.OpenExitingMapActivity"/>
+        <activity android:name=".openmobilemappackage.OpenMapPackageActivity"/>
+        <activity android:name=".picturemarkersymbols.PictureMarkerSymbolsActivity"/>
+        <activity android:name=".servicefeaturetablecache.ServiceFTCacheActivity"/>
+        <activity android:name=".servicefeaturetablemanualcache.ServiceFTManualCacheActivity"/>
+        <activity android:name=".servicefeaturetablenocache.ServiceFTNocacheActivity"/>
+        <activity android:name=".setmapinitialextent.SetMapInitialExtentActivity"/>
+        <activity android:name=".setmapinitiallocation.SetMapInitialLocationActivity"/>
+        <activity android:name=".setmapspatialreference.SetMapSpatialReferenceActivity"/>
+        <activity android:name=".showcallout.ShowCalloutActivity"/>
+        <activity android:name=".showmagnifier.ShowMagnifierActivity"/>
+        <activity android:name=".simplemarkersymbol.SimpleMarkerSymbolActivity"/>
+        <activity android:name=".simplerenderer.SimpleRendererActivity"/>
+        <activity android:name=".spatialoperations.SpatialOperationsActivity"/>
+        <activity android:name=".takescreenshot.TakeScreenshotActivity"/>
+        <activity android:name=".uniquevaluerenderer.UniqueValueRendererActivity"/>
     </application>
 
 </manifest>

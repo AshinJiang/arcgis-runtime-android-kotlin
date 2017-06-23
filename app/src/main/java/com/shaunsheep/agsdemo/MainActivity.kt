@@ -7,11 +7,13 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.esri.arcgisruntime.mapping.view.MapRotationChangedEvent
+import com.esri.arcgisruntime.mapping.view.SpatialReferenceChangedEvent
 import com.shaunsheep.agsdemo.addgraphicsrenderer.AddGraphicsRenderer
 import com.shaunsheep.agsdemo.addgraphicssymbol.AddGraphicsSymbol
 import com.shaunsheep.agsdemo.arcgismapimagelayer.MapImageLayerUrl
 import com.shaunsheep.agsdemo.arcgistiledfromurl.TiledLayerFromUrl
 import com.shaunsheep.agsdemo.arcgisvectortiledlayerurl.VectorTiledlayerFromUrl
+import com.shaunsheep.agsdemo.authenticationprofile.AuthProfileActivity
 import com.shaunsheep.agsdemo.blendrenderer.BlendRendererActivity
 import com.shaunsheep.agsdemo.changebasemap.ChangeBaseMapActivity
 import com.shaunsheep.agsdemo.changefeaturelayerrenderer.ChangeFeatureLayerRendererActivity
@@ -40,6 +42,23 @@ import com.shaunsheep.agsdemo.manageoperationallayers.ManageOperationalLayerActi
 import com.shaunsheep.agsdemo.maploaded.MapLoadedActivity
 import com.shaunsheep.agsdemo.maprotation.MapRotationActivity
 import com.shaunsheep.agsdemo.mapsketching.MapSketchingActivity
+import com.shaunsheep.agsdemo.offlinegeocode.OfflineGeocodeActivity
+import com.shaunsheep.agsdemo.openexistingmap.OpenExitingMapActivity
+import com.shaunsheep.agsdemo.openmobilemappackage.OpenMapPackageActivity
+import com.shaunsheep.agsdemo.picturemarkersymbols.PictureMarkerSymbolsActivity
+import com.shaunsheep.agsdemo.servicefeaturetablecache.ServiceFTCacheActivity
+import com.shaunsheep.agsdemo.servicefeaturetablemanualcache.ServiceFTManualCacheActivity
+import com.shaunsheep.agsdemo.servicefeaturetablenocache.ServiceFTNocacheActivity
+import com.shaunsheep.agsdemo.setmapinitialextent.SetMapInitialExtentActivity
+import com.shaunsheep.agsdemo.setmapinitiallocation.SetMapInitialLocationActivity
+import com.shaunsheep.agsdemo.setmapspatialreference.SetMapSpatialReferenceActivity
+import com.shaunsheep.agsdemo.showcallout.ShowCalloutActivity
+import com.shaunsheep.agsdemo.showmagnifier.ShowMagnifierActivity
+import com.shaunsheep.agsdemo.simplemarkersymbol.SimpleMarkerSymbolActivity
+import com.shaunsheep.agsdemo.simplerenderer.SimpleRendererActivity
+import com.shaunsheep.agsdemo.spatialoperations.SpatialOperationsActivity
+import com.shaunsheep.agsdemo.takescreenshot.TakeScreenshotActivity
+import com.shaunsheep.agsdemo.uniquevaluerenderer.UniqueValueRendererActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),OnItemClickListener {
@@ -77,7 +96,24 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             "manage-operational-layers",
             "map-loaded",
             "map-rotation",
-            "map-sketching"
+            "map-sketching",
+            "offline-geocode",
+            "open-existing-map",
+            "open-mobile-mappackage",
+            "picture-marker-symbols",
+            "service-feature-table-cache",
+            "service-feature-table-manualcache",
+            "service-feature-table-nocache",
+            "set-initial-map-area",
+            "set-initial-map-location",
+            "set-map-spatial-reference",
+            "show-callout",
+            "show-magnifier",
+            "simple-marker-symbol",
+            "simple-renderer",
+            "spatial-operations",
+            "take-screenshot",
+            "unique-value-renderer"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -98,7 +134,7 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             2 -> startActivity(Intent(applicationContext,MapImageLayerUrl::class.java))
             3 -> startActivity(Intent(applicationContext,TiledLayerFromUrl::class.java))
             4 -> startActivity(Intent(applicationContext,VectorTiledlayerFromUrl::class.java))
-
+            5 -> startActivity(Intent(applicationContext,AuthProfileActivity::class.java))
             6 -> startActivity(Intent(applicationContext,BlendRendererActivity::class.java))
             7 -> startActivity(Intent(applicationContext,ChangeBaseMapActivity::class.java))
             8 -> startActivity(Intent(applicationContext,ChangeFeatureLayerRendererActivity::class.java))
@@ -127,7 +163,23 @@ class MainActivity : AppCompatActivity(),OnItemClickListener {
             31 -> startActivity(Intent(applicationContext,MapLoadedActivity::class.java))
             32 -> startActivity(Intent(applicationContext,MapRotationActivity::class.java))
             33 -> startActivity(Intent(applicationContext,MapSketchingActivity::class.java))
-
+            34 -> startActivity(Intent(applicationContext,OfflineGeocodeActivity::class.java))
+            35 -> startActivity(Intent(applicationContext,OpenExitingMapActivity::class.java))
+            36 -> startActivity(Intent(applicationContext,OpenMapPackageActivity::class.java))
+            37 -> startActivity(Intent(applicationContext,PictureMarkerSymbolsActivity::class.java))
+            38 -> startActivity(Intent(applicationContext,ServiceFTCacheActivity::class.java))
+            39 -> startActivity(Intent(applicationContext,ServiceFTManualCacheActivity::class.java))
+            40 -> startActivity(Intent(applicationContext,ServiceFTNocacheActivity::class.java))
+            41 -> startActivity(Intent(applicationContext,SetMapInitialExtentActivity::class.java))
+            42 -> startActivity(Intent(applicationContext,SetMapInitialLocationActivity::class.java))
+            43 -> startActivity(Intent(applicationContext,SetMapSpatialReferenceActivity::class.java))
+            44 -> startActivity(Intent(applicationContext,ShowCalloutActivity::class.java))
+            45 -> startActivity(Intent(applicationContext,ShowMagnifierActivity::class.java))
+            46 -> startActivity(Intent(applicationContext, SimpleMarkerSymbolActivity::class.java))
+            47 -> startActivity(Intent(applicationContext,SimpleRendererActivity::class.java))
+            48 -> startActivity(Intent(applicationContext,SpatialOperationsActivity::class.java))
+            49 -> startActivity(Intent(applicationContext,TakeScreenshotActivity::class.java))
+            50 -> startActivity(Intent(applicationContext,UniqueValueRendererActivity::class.java))
         }
         Snackbar.make(view,position.toString(),Snackbar.LENGTH_SHORT).setAction("Action", null).show()
     }

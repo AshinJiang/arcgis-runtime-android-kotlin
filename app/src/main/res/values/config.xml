@@ -6,4 +6,7 @@
     <string name="config.vtpk.name">LosAngeles.vtpk</string>
     <!-- geodatabase tpk file name -->
     <string name="config.geodb.name">LA_Trails.geodatabase</string>
+
+    <string name="config.data.sdcard.offline.mmpk">ArcGIS/samples/MapPackage</string>
+    <string name="config.mmpk.name">Yellowstone</string>
 </resources>

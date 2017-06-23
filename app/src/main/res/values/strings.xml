@@ -26,6 +26,14 @@
     <string name="drawer_close">Close navigation drawer</string>
     <!-- arcgis vectortiledlayer form url end-->
 
+    <!--auth profile start-->
+    <string name="title_auth_Profile">Authentication Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="email">E-Mail</string>
+    <string name="create_date">Member Since</string>
+    <string name="portal_name">Portal</string>
+    <!--auth profile end-->
+
     <!-- World Topo Map Service URL -->
     <string name="world_elevation_service">http://sampleserver5.arcgisonline.com/arcgis/rest/services/Elevation/WorldElevations/MapServer</string>
     <!-- World Topo Map Service URL -->
@@ -272,5 +280,89 @@
     <string name="undoButtonDescription">Undo last drawing event button</string>
     <string name="redoButtonDescription">Redo last undone drawing event button</string>
     <string name="clearButtonDescription">Clear current drawings button</string>
+
+    <!--offline geocode start-->
+    <string name="title_offline_geocode">Offline geocode</string>
+    <string name="geo_locate_error">Geocode failed on address</string>
+    <string name="location_not_foud">We are sorry, we couldn\'t find a location with the name - </string>
+    <!-- San Francisco tpk and locator paths -->
+    <string name="sandiego_tpk">/ArcGIS/samples/OfflineGeocoding/streetmap_SD.tpk</string>
+    <string name="sandiego_loc">/ArcGIS/samples/OfflineGeocoding/san-diego-locator.loc</string>
+    <string name="offline_geocode_search_hint">Enter address</string>
+    <string name="reverse_geocode_message">Drag the pin to reverse-geocode</string>
+    <!-- Search Suggestions -->
+    <string-array name="suggestion_items">
+        <item>910 N Harbor Dr, San Diego, CA 92101</item>
+        <item>2920 Zoo Dr, San Diego, CA 92101</item>
+        <item>111 W Harbor Dr, San Diego, CA 92101</item>
+        <item>868 4th Ave, San Diego, CA 92101</item>
+        <item>750 A St, San Diego, CA 92101</item>
+        <item>Enter address&#8230;</item>
+    </string-array>
+    <!--offline geocode end-->
+
+    <!--open existing map start-->
+    <string name="title_open_exiting_map">Open Existing map</string>
+    <string name="navbar_title">Open a map</string>
+    <!-- arcgis online portal url -->
+    <string name="portal_url">http://www.arcgis.com/</string>
+    <!-- webmap portal item id's -->
+    <string name="webmap_houses_with_mortgages_id">2d6fa24b357d427f9c737774e7b0f977</string>
+    <string name="webmap_usa_tapestry_segmentation_id">01f052c8995e4b9e889d73c3e210ebe3</string>
+    <string name="webmap_geology_us">92ad152b9da94dee89b9e387dfe21acd</string>
+    <!-- webmap titles -->
+    <string name="webmap_houses_with_mortgages_title">Houses with mortgages</string>
+    <string name="webmap_usa_tapestry_segmentation_title">USA tapestry segmentation</string>
+    <string name="webmap_geology_us_title">Geology of United States</string>
+    <!--open existing map end-->
+
+    <string name="title_open_mmpk">Open Mobile Map Package</string>
+    <string name="open_mmpk_location_permission_denied">Open Mobile Map Package could not open because WRITE permission was denied.</string>
+
+    <string name="title_picture_marker">Picture marker symbols</string>
+    <string name="pin_blank_orange_folder_name">ArcGISTemp</string>
+    <string name="pin_blank_orange_file_name">pin_blank_orange.png</string>
+
+    <string name="title_service_feature_table_cache">Service feature table (cache)</string>
+    <string name="poolpermits_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/PoolPermits/FeatureServer/0</string>
+
+    <string name="title_service_FT_manual_cache">Service FeatureTable manual-cache</string>
+    <string name="sf311_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/SF311/FeatureServer/0</string>
+
+    <string name="title_service_ft_nocache">Service feature table (no cache)</string>
+
+    <string name="title_set_init_map_area">Set Initial Map Area</string>
+
+    <string name="title_set_init_map_location">Set Initial Map Location</string>
+
+    <string name="title_set_map_spatialreference">Set Map Spatial Reference</string>
+
+    <string name="title_show_callout">Show Callout</string>
+
+    <string name="title_show_magnifier">Show Magnifier</string>
+
+    <string name="title_simple_marker_symbol">Simple marker symbol</string>
+
+    <string name="title_simple_renderer">Simple renderer</string>
+
+    <!-- spatial operations start -->
+    <string name="title_spatial_operations">spatial-operations</string>
+    <!-- spatial operation menu items -->
+    <string name="caption_no_operation">No operation</string>
+    <string name="caption_intersection">Intersection</string>
+    <string name="caption_union">Union</string>
+    <string name="caption_difference">Difference</string>
+    <string name="caption_symmetric_difference">Symmetric difference</string>
+    <!-- spatial operations end -->
+
+    <!--take screenshot start-->
+    <string name="title_take_screenshot">Take screenshot</string>
+    <string name="menu_capture">Capture</string>
+    <string name="map_export_failure">Fail to export map image: </string>
+    <string name="map_export_message">Exporting Map as an image!</string>
+    <!--take screenshot end-->
+
+    <string name="title_unique_value_renderer">Unique value renderer</string>
+    <string name="census_service_url">https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer/3</string>
 
 </resources>
